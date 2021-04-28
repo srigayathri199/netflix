@@ -18,7 +18,7 @@
 }
 
 .banner__description {
-    font-size: 0.5em;
+    font-size: 1.0em;
     font-weight: 400;
     margin-bottom: 1em;
     line-height: 1.4em;
@@ -37,9 +37,9 @@
 
 .banner__button {
     margin-right: 2px;
-    border-radius: 0.em;
-    font-size: 0.6em;
-    font-weight: 500;
+    border-radius: 0.3em;
+    font-size: 0.99em;
+    font-weight: 600;
     outline: none;
     border: none;
     color: white;
@@ -61,8 +61,5 @@
 @media screen and (min-width:768px) {
     .banner__contents {
         width: 45%;
-    }
-    .banner__title {
-        font-size: 1.5rem;
     }
 }

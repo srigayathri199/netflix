@@ -4,7 +4,7 @@
 }
 
 .row-title {
-    font-size: 0.7em;
+    font-size: 1.5em;
     font-weight: 600;
 }
 
@@ -21,7 +21,7 @@
 }
 
 .row-poster {
-    max-height: 6.2em;
+    max-height: 8.5em;
     object-fit: contain;
     padding-right: 5px;
     width: 100%;
@@ -34,5 +34,5 @@
 }
 
 .row-posterLarge {
-    max-height: 9.8em;
+    max-height: 11.8em;
 }

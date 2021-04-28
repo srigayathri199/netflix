@@ -5,7 +5,7 @@
     padding-bottom: 5px;
     width: 100%;
     z-index: 1;
-    /* height: auto; */
+    height: 2em;
     transition-timing-function: ease-in;
     transform: all 0.5s;
 }
@@ -26,6 +26,7 @@
     object-fit: contain;
     cursor: pointer;
     top: 2px;
+    font-size: 2em;
     padding-left: 10px;
 }
 
@@ -34,6 +35,6 @@
     cursor: pointer;
     right: 45px;
     top: 0;
-    height: 23px;
-    width: 25px;
+    height: 2em;
+    width: 2em;
 }
