@@ -2,6 +2,8 @@ import React,{useState,useEffect} from 'react'
 import './Banner.css';
 import axios from './Axios';
 import requests from './Request.js';
+import PlayArrowRoundedIcon from '@material-ui/icons/PlayArrowRounded';
+import AddRoundedIcon from '@material-ui/icons/AddRounded';
 
 function Banner() {
     const [movie,setMovie] = useState([]);
@@ -26,7 +28,7 @@ function Banner() {
             {movie.backdrop_path ?
             <header className="banner" style={{
                 backgroundImage:`url("https://image.tmdb.org/t/p/original${movie?.backdrop_path}")`,
-                backgroundSize:'100% 100%',
+                
                 backgroundPosition:"center center",
              
             }}>
@@ -41,8 +43,12 @@ function Banner() {
 
                 <div                        
                 className="banner__buttons">
-                    <button  className="banner__button"> Play</button>
-                    <button  className="banner__button">My List</button>
+                    <button  className="banner__button"> 
+                    <PlayArrowRoundedIcon style={{fontSize:'1.2rem',paddingRight:'0.5rem'}}/>
+                    Play</button>
+                    <button  className="banner__button">
+                        <AddRoundedIcon style={{fontSize:'1.2rem',paddingRight:'0.5rem'}} />
+                        My List</button>
                 </div>
             </div>
            

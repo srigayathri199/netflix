@@ -2,10 +2,10 @@
     position: fixed;
     top: 0;
     padding-top: 20px;
-    padding-bottom: 5px;
+    padding-bottom: 8px;
     width: 100%;
     z-index: 1;
-    height: 2em;
+    height: 1rem;
     transition-timing-function: ease-in;
     transform: all 0.5s;
 }
@@ -25,7 +25,7 @@
     width: 70px;
     object-fit: contain;
     cursor: pointer;
-    top: 2px;
+    top: 0.4px;
     font-size: 2em;
     padding-left: 10px;
 }
@@ -33,8 +33,8 @@
 .nav__avatar {
     position: absolute;
     cursor: pointer;
-    right: 45px;
-    top: 0;
-    height: 2em;
-    width: 2em;
+    right: 18px;
+    top: 10%;
+    height: 2.2em;
+    width: 2.1em;
 }
